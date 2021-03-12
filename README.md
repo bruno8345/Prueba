@@ -1,3 +1,3 @@
 # Prueba
 Prueba
-un ejemplo de repositorio
+de un ejemplo de repositorio
