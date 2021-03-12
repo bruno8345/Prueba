@@ -1,0 +1,113 @@
+*{
+font-family: 'Teko', sans-serif;
+font-weight: 100;
+font-size: 20px;
+}
+.nav__responsive-ul{
+display: none;
+}
+.nav__responsive-li:hover i{
+	color: #fff;
+}
+.nav{
+	background-color: blue;
+}
+.nav__responsive-li:hover a{
+	color: #fff;
+}
+.nav__li{
+	display: inline-block;
+	padding: 9px;
+	color: #fff;
+}
+.nav__li:hover{
+	color: #33FF4D;
+}
+.nav__li:hover a{
+	color: #33FF4D;
+}
+.nav__li a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav__li i{
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 5px;
+}
+.nav__responsive-button-contenedor{
+position: absolute;
+width: 100%;
+font-size: 25px;
+background-color: #69c;
+margin-top: -64px;
+z-index: 100;
+}
+.nav__responsive-button{
+	padding: 6px 20px;
+	text-align: right;
+	width: 100%;
+}
+@media only screen and (max-width: 500px) {
+	.nav__ul {
+		display: none;
+	}
+	.nav {
+	height: 37px;
+	width: 100%;
+
+}
+	.nav__responsive-ul{
+		display: block;
+		position: absolute;
+		width: 100%;
+		padding-top: 27px;
+		margin-top: 37px;
+		height: 37px;
+	}
+	.nav__li-contenedor{
+		position: relative;
+		top: -1000px;
+		height: calc(100vh - 64px);
+		background-color: #9bf;
+		transition: all 1s;
+		z-index: 1;
+		width: 75%;
+		padding-top: 27px;
+	}
+	.nav__responsive-li{
+		width: 100%;
+		padding: 9px 20px;
+	}
+	.nav__responsive-li i{
+		box-sizing: border-box;
+		text-align: center;
+		margin-right: 5px;
+		width: 30px;
+		color: #016;
+	}
+	.nav__responsive-li a{
+		color: #016;
+		text-decoration: none;
+	}
+	.nav__responsive-ul:hover > .nav__li-contenedor{
+top: -27px;
+	}
+}
+
+/**div{
+width: 45%;
+display: inline-block;
+padding: 20px;
+background-color: #ddd;
+}
+.caja2{
+background-color: #bbb;
+}
+@media screen and(max-width:800px){
+
+}
+div{
+display: block;
+width: 100%;
+}**/

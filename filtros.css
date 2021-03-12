@@ -1,0 +1,13 @@
+*{
+font-family: 'Teko', sans-serif;
+font-weight: 100;
+}
+body {
+}
+:root{
+	--color-rojo: #f00;
+	--color-azul:blue; 
+}
+div{
+	filter: saturate(2);
+}

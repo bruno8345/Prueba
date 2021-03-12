@@ -1,0 +1,21 @@
+/***{
+font-family: 'Teko', sans-serif;
+font-weight: 100;
+}
+*/body {
+	color: #222;
+	font-family: 'Teko', sans-serif;
+}
+.grande {
+	font-size: 50px;
+}
+/*.container{
+	padding: 20px;
+	background: blue;
+	font-size: 20px;
+	letter-spacing: 4px;
+}
+.content{
+	background: #a22;
+	user-select: none;
+}**/

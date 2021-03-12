@@ -1,0 +1,21 @@
+*{
+font-family: 'Teko', sans-serif;
+padding: 0px;
+margin: 0px;
+}
+.contenedor{
+width: 300px;
+height: 300px;
+position: relative;
+margin: 40px;
+background-color: green;
+}
+.hijo{
+width: 120px;
+height: 120px;
+top: -20px;
+left: -20px;
+position: relative;
+z-index: -1;
+background-color: #a22;
+}

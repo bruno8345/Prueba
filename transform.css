@@ -1,0 +1,25 @@
+*{
+font-family: 'Teko', sans-serif;
+font-weight: 100;
+}
+body {
+}
+.container{
+	background-color: #86f;
+	padding: 20px 5px;
+}
+.caja{
+	background: #025;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+    display: flex;
+    color: #fff;
+    transition: transform 1s;
+}
+.caja:hover{
+	transform: skew(50deg);
+}
+b{
+	margin: auto;
+}

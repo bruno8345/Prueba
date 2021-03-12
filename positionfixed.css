@@ -1,0 +1,10 @@
+*{
+font-family: 'Teko', sans-serif;
+font-weight: 100;
+font-size: 40px;
+}
+.fixed{
+position: sticky;
+background-color: #a22;
+top: 0px;
+}

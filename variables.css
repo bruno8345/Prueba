@@ -1,0 +1,22 @@
+*{
+font-family: 'Teko', sans-serif;
+font-weight: 100;
+}
+body {
+}
+:root{
+	--color-rojo: #f00;
+	--color-azul:blue; 
+}
+div{
+	width: 150px;
+	height: 150px;
+	padding: 30px;
+	margin: 30px;
+}
+.container{
+	background-color: var(--color-rojo);
+}
+.container2{
+	background: var(--color-azul);
+}
